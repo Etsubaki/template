@@ -8,7 +8,7 @@
 		<meta http-equiv="Content-Script-Type" content="text/javascript"/>
 		<meta http-equiv="imagetoolbar" content="no"/>
 		<meta name="description" content=""/>
-		<meta name="keyword" content=""/>
+		<meta name="keywords" content=""/>
 		<title>Login画面</title>
 
 		<style type="text/css">
