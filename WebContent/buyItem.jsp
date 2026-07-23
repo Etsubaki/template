@@ -37,7 +37,7 @@
 			#header{
 				width:100%;
 				height:80px;
-				background-color:blac;k
+				background-color:black;
 			}
 
 			#main{
