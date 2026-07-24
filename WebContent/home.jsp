@@ -35,21 +35,21 @@
 			}
 
 			#header{
-				width:100%
-				height: 80px;
+				width:100%;
+				height:80px;
 				background-color:black;
 			}
 
 			#main{
 				width:100%;
-				height:80px;
+				height:500px;
 				text-align:center;
 			}
 
 			#footer{
 				width:100%;
 				height:80px;
-				baclground-color:back;
+				background-color:black;
 				clear:both;
 			}
 		</style>
