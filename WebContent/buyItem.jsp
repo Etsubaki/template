@@ -18,14 +18,14 @@
 				line-height:1.6;
 				letter-spacing:1px;
 				font-family:Verdana, Helvetica, sans-serif;
-				font-siza:12px;
+				font-size:12px;
 				color:#333;
 				background:#fff;
 			}
 
 			table{
 				text-align:center;
-				margin:0 atuo;
+				margin:0 auto;
 			}
 
 			#top{
@@ -35,20 +35,20 @@
 			}
 
 			#header{
-				width:100%;
-				height:80px;
-				background-color:black;
+				width: 100%;
+				height: 80px;
+				background-color: black;
 			}
 
 			#main{
-				width:100%;
-				heigth:500px;
+				width: 100%;
+				height:500px;
 				text-align: center;
 			}
 
 			#footer{
 				width:100%;
-				height:80px;
+				height: 80px;
 				background-color:black;
 				clear:both;
 			}
