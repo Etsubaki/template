@@ -42,7 +42,7 @@
 
 			#main{
 				width:100%;
-				height:80px;
+				height:500px;
 				text-align:center;
 			}
 

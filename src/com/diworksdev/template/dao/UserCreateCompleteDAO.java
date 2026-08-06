@@ -5,9 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 import com.diworksdev.template.util.DBConnector;
-
-import com.internousdev.template.util.DBConnector;
-import com.internousdev.template.util.DateUtil;
+import com.diworksdev.template.util.DateUtil;
 
 public class UserCreateCompleteDAO {
 	private com.diworksdev.template.util.DateUtil dateUtil = new DateUtil();
