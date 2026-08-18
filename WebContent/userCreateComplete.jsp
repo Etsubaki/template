@@ -11,7 +11,7 @@
 		<meta name="keywords" content=""/>
 		<title>UserCreateComplete画面</title>
 
-		<style type = "text/css">
+		<style type="text/css">
 			body{
 				margin:0;
 				padding:0;
@@ -25,7 +25,7 @@
 
 			table{
 				text-align:center;
-				margin: 0 auto;
+				margin:0 auto;
 			}
 
 			#top{
@@ -36,18 +36,18 @@
 
 			#header{
 				width:100%;
-				height:80px;
+				height: 80px;
 				background-color: black;
 			}
 
-			#main{
-				width:100px;
+			#main {
+				width:100%;
 				height:500px;
 				text-align: center;
 			}
 
 			#footer{
-				width: 100px;
+				width:100%;
 				height: 80px;
 				background-color:black;
 				clear:both;
@@ -59,17 +59,19 @@
 			<div id="pr">
 			</div>
 		</div>
+
 		<div id="main">
 			<div id="top">
 				<p>UserCreateComplete</p>
 			</div>
 			<div>
-				<h3>ユーザーの登録が完了いたしました。</h3>
+				<h3>ユーザーの登録が完了致しました。</h3>
 				<div>
 					<a href='<s:url action="HomeAction" />'>ログインへ</a>
 				</div>
 			</div>
 		</div>
+
 		<div id="footer">
 			<div id="pr">
 			</div>

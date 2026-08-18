@@ -8,11 +8,11 @@ import com.diworksdev.template.util.DBConnector;
 import com.diworksdev.template.util.DateUtil;
 
 public class UserCreateCompleteDAO {
-	private com.diworksdev.template.util.DateUtil dateUtil = new DateUtil();
+	private DateUtil dateUtil = new DateUtil();
 	private String sql = "INSERT INTO login_user_transaction(login_id, login_pass, user_name, insert_date) VALUES(?,?,?,?)";
 
 	public void createUser(String loginUserId, String loginUserPassword, String userName) throws SQLException{
-		com.diworksdev.template.util.DBConnector dbConnector = new DBConnector();
+		DBConnector dbConnector = new DBConnector();
 		Connection connection = dbConnector.getConnection();
 		try{
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);

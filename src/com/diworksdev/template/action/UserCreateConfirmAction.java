@@ -16,17 +16,15 @@ public class UserCreateConfirmAction extends ActionSupport implements SessionAwa
 	public String execute() {
 		String result = SUCCESS;
 
-		if(!(loginUserId.equals(""))
-		&&!(loginPassword.equals(""))
-		&& !(userName.equals(""))) {
-			session.put("loginUserId", loginUserId);
-			session.put("loginPassword", loginPassword);
-			session.put("userName", userName);
-		} else {
-		setErrorMessage("未入力の項目があります。");
-		result = ERROR;
-		}
-		return result;
+		if(!(loginUserId.equals(""))&&!(loginPassword.equals(""))&&!(userName.equals(""))){
+				session.put("loginUserId", loginUserId);
+				session.put("loginPassword", loginPassword);
+				session.put("userName", userName);
+			} else {
+				setErrorMessage("未入力の項目があります。");
+				result = ERROR;
+			}
+			return result;
 	}
 
 	public String getLoginUserId(){
@@ -41,7 +39,7 @@ public class UserCreateConfirmAction extends ActionSupport implements SessionAwa
 		return loginPassword;
 	}
 
-	public void setPassword(String loginPassword){
+	public void setLoginPassword(String loginPassword){
 		this.loginPassword = loginPassword;
 	}
 
