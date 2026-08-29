@@ -5,12 +5,11 @@ public class MyPageDTO {
 	private String totalPrice;
 	private String totalCount;
 	private String payment;
-
-	public String getItemName(){
+	public String getItemName() {
 		return this.itemName;
 	}
 
-	public void setItemName(String itemName){
+	public void setItemName(String itemName) {
 		this.itemName = itemName;
 	}
 
@@ -37,5 +36,4 @@ public class MyPageDTO {
 	public void setPayment(String payment) {
 		this.payment = payment;
 	}
-
 }
